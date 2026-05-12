@@ -139,14 +139,14 @@ duration_input = st.sidebar.selectbox(
 
 st.sidebar.subheader("Rate Movies (1-5)")
 
-r1 = st.sidebar.slider("Kabir Singh / Titanic", 1, 5, 3)
-r2 = st.sidebar.slider("Golmaal / Hera Pheri", 1, 5, 3)
-r3 = st.sidebar.slider("Bhool Bhulaiyaa / Stree", 1, 5, 3)
-r4 = st.sidebar.slider("Drishyam / Andhadhun", 1, 5, 3)
-r5 = st.sidebar.slider("M.S Dhoni / Mary Kom", 1, 5, 3)
-r6 = st.sidebar.slider("Avatar / Dark Knight", 1, 5, 3)
-r7 = st.sidebar.slider("Bahubali / RRR", 1, 5, 3)
-r8 = st.sidebar.slider("3 Idiots / Dangal", 1, 5, 3)
+r1 = st.sidebar.slider("Romantic", 1, 5, 3)
+r2 = st.sidebar.slider("Comedy", 1, 5, 3)
+r3 = st.sidebar.slider("Horror", 1, 5, 3)
+r4 = st.sidebar.slider("Thriller", 1, 5, 3)
+r5 = st.sidebar.slider("Biopic", 1, 5, 3)
+r6 = st.sidebar.slider("Science-fiction", 1, 5, 3)
+r7 = st.sidebar.slider("Action-Drama", 1, 5, 3)
+r8 = st.sidebar.slider("Inspirational", 1, 5, 3)
 
 # =========================
 # PREDICT BUTTON
